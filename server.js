@@ -10,14 +10,14 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 const db = knex({
   client: 'pg',
   version: '7.2',
   connection: {
-    host : 'postgresql-defined-83702',
-    user : 'postgres',
-    password : '1234',
-    database : 'smart-brain'
+    host : 'process.env.DATABASE_URL',
+    ssl : true
   }
 });
 
