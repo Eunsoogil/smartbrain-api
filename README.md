@@ -5,7 +5,7 @@ Progress : Complete
 
 Course contents : HTML, CSS, JS, React, Node.js, Express.js, Postgresql, Heroku etc
 
-#### This repository is a part of api of the smartbrain project distributed by heroku
+#### This repository is a part of the api of the smartbrain project distributed by heroku
 smartbrain : Face recognition using Clarifai API if you type in image adress(ex. https://i.pinimg.com/originals/84/12/71/8412715b792dc8e26f384ce8d26e8304.jpg) in web page
 smartbrain link : https://smart-brain-es.herokuapp.com/
 smartbrain korean version link : https://smart-brain-es2.herokuapp.com/
